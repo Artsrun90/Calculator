@@ -4,37 +4,41 @@
 
 .name-calculator{
     background-color: #4285F4;
-    height: 100px;
     color: white;
     top: 0;
 }
 .name-calculator h2{
-    margin-top: 15px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 60px;
     font-style: normal;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.calculator{
+    margin-left: auto;
+    margin-right: auto;
 }
 .result{
     width: 640px;
     height: 70px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-top: 7%;
+    margin-top: 80px;
     font-size: 30px;
     background-color: rgb(252, 252, 252);
-    padding: 12px;
     overflow: hidden;
 }
 .equ{
-    margin-top: -4.5%;
-    margin-left: -10px;
-    width: 620px;
+    margin-top: -12px;
     white-space: nowrap;
 }
 
 
 .buttons{
     width: 640px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn{
@@ -45,6 +49,18 @@
     background-color: #DADCE0;
     margin-top: 20px;
     padding-bottom: 30px;
+    border-radius: 5px;
+}
+.clearb{
+    width: 49.6%;
+    height: 30px;
+    color: rgb(36, 36, 36);
+    font-weight: bold;
+    background-color: #DADCE0;
+    margin-top: 20px;
+    padding-bottom: 30px;    
+    border: none;
+    border-radius: 5px;
 }
 
 .btnnum{
@@ -63,8 +79,34 @@
     background-color: #e6e7e7;
     color: rgb(80, 80, 80);
 }
+.clearb:hover {
+    background-color: #e6e7e7;
+    color: rgb(80, 80, 80);
+    cursor: pointer;
+}
 
 #equal:hover{
     background-color: #5f9bfa;
     color: white;  
+}
+
+
+@media screen and (max-width: 770px){
+    .result{
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .buttons{
+        width: 100%;
+    }
+    .btn{
+        width: 13%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .clearb{
+        width: 40%;
+        margin-left: 20px;
+    }
 }
