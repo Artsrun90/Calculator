@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='icon' href='Calculator-icon.ico' type='image/x-icon'/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="name-calculator">
+        <div class="container">
+            <div class="row justify-content-center">
+                    <h2>Online Calculator</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="calculator">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="result">
+                    <div class="equ">
+                        <div class="col-xl-7" style="height: 40px;">
+                                <span id="equalResulat" style="font-size: 14px;">0</span>
+                        </div>
+                        <div class="col-xl-7">
+                            <span id="result">0</span>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-7">
+                    <div class="buttons">
+                        <button class="btn btnnum" id="7">7</button>
+                        <button class="btn btnnum btb-left" id="8">8</button>
+                        <button class="btn btnnum btb-left" id="9">9</button>
+                        <button class="btn btb-left" id="divide">÷</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-7">
+                    <div class="buttons">
+                        <button class="btn btnnum" id="4">4</button>
+                        <button class="btn btnnum btb-left" id="5">5</button>
+                        <button class="btn btnnum btb-left" id="6">6</button>
+                        <button class="btn btb-left" id="multiply">×</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-7">
+                    <div class="buttons">
+                        <button class="btn btnnum" id="1">1</button>
+                        <button class="btn btnnum btb-left" id="2">2</button>
+                        <button class="btn btnnum btb-left" id="3">3</button>
+                        <button class="btn btb-left" id="subtract">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-7">
+                    <div class="buttons">
+                        <button class="btn btnnum" id="0">0</button>
+                        <button class="btn btnnum btb-left" id="dot">.</button>
+                        <button class="btn btb-left active" id="equal">=</button>
+                        <button class="btn btb-left" id="add">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-7">
+                    <div class="buttons">
+                        <button class="btn" style="width: 390px;" id="clearAll">Clear</button>
+                        <button class="btn" style="width: 230px; margin-left: 15px;" id="clear"><i class="fas fa-backspace"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
